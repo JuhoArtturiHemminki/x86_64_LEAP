@@ -1,0 +1,17 @@
+[package]
+name = "x86_64_leap"
+version = "4.12.0"
+edition = "2021"
+authors = ["Juho Artturi Hemminki"]
+description = "Autonomous Low-Latency Hardware-Level Thermal & Voltage Optimization Subsystem"
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[profile.release]
+opt-level = 3           # Maximize aggressive code generation and inline passes
+lto = true              # Enforce global Link-Time Optimization across module boundaries
+panic = "abort"         # Completely strip out complex stack unwinding logic
+codegen-units = 1       # Reduce compilation blocks to 1 to unlock extreme optimizations
+rpath = false           # Strip dynamic library search paths
+strip = true            # Force auto-stripping of all debug symbols and metadata tables
