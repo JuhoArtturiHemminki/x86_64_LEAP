@@ -1,0 +1,44 @@
+OUTPUT_FORMAT("elf64-x86-64")
+OUTPUT_ARCH(i386:x86-64)
+
+ENTRY(_start)
+
+SECTIONS
+{
+    . = 0x100000;
+
+    .text : AT(ADDR(.text))
+    {
+        KEEP(*(.text._start))
+        *(.text .text.*)
+    }
+
+    . = ALIGN(0x1000);
+
+    .rodata : AT(ADDR(.rodata))
+    {
+        *(.rodata .rodata.*)
+    }
+
+    . = ALIGN(0x1000);
+
+    .data : AT(ADDR(.data))
+    {
+        *(.data .data.*)
+    }
+
+    . = ALIGN(64);
+
+    .bss : AT(ADDR(.bss))
+    {
+        *(.bss .bss.*)
+        *(COMMON)
+    }
+
+    /DISCARD/ :
+    {
+        *(.comment)
+        *(.eh_frame)
+        *(.note.GNU-stack)
+    }
+}
