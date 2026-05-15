@@ -1,0 +1,32 @@
+# SOFTWARE LICENSE AGREEMENT: x86_64_LEAP
+### Copyright (c) 2026 Juho Artturi Hemminki / LeapLeft. All Rights Reserved.
+
+IMPORTANT: PLEASE READ THIS LICENSE AGREEMENT CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING THE SOFTWARE. BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE.
+
+---
+
+### 1. DEFINITIONS
+* "Software" refers to the x86_64_LEAP source code, compiled binaries, documentation, and any associated hardware-level control protocol artifacts.
+* "Licensor" refers to the original creator and copyright holder, Juho Artturi Hemminki / LeapLeft.
+* "Commercial Use" refers to any use of the Software by a commercial entity, corporation, or individual for commercial gain, profit, business operations, integration into commercial hardware/software, or research and development within a commercial setting.
+
+### 2. GRANT OF LICENSE FOR PERSONAL USE
+Subject to the terms and conditions of this Agreement, Licensor grants you a non-exclusive, non-transferable, revocable license to install and use the Software solely for non-commercial, personal, private, and educational purposes.
+
+### 3. DEVICE LIMITATION
+This personal use license is strictly limited to a maximum of three (3) physical devices/machines per individual person. You may not install or execute the Software on a fourth (4th) device without obtaining an explicit additional license or written waiver from the Licensor.
+
+### 4. PROHIBITION OF COMMERCIAL USE
+ANY AND ALL COMMERCIAL USE OF THE SOFTWARE IS STRICTLY PROHIBITED. 
+If you wish to use the Software for commercial purposes, corporate deployment, or hardware manufacturing, you must contact the Licensor directly to negotiate and acquire a separate Commercial License. 
+
+### 5. ADDITIONAL RESTRICTIONS
+You shall not:
+* Sublicense, rent, lease, sell, or distribute the Software to any third party.
+* Modify, alter, or remove any copyright notices, trademarks, or authorship attributions embedded in the Software.
+
+### 6. TERMINATION
+This License is effective until terminated. Your rights under this License will terminate automatically without notice from the Licensor if you fail to comply with any term(s) of this Agreement, including but not limited to the commercial use prohibition or the device limit threshold.
+
+### 7. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
